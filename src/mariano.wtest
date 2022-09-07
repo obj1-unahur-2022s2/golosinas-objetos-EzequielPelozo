@@ -3,12 +3,7 @@ import mariano.*
 
 describe "tests de mariano" {
 
-	fixture {
-		chocolatin.pesoInicial(100)
-		mariano.comprar(chocolatin)
-		mariano.comprar(caramelo)
-		mariano.comprar(bombon)
-	}
+	
 
 	test "test comprar" {
 		assert.equals(3, mariano.golosinas().size())
